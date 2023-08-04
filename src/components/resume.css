@@ -1,0 +1,119 @@
+/* resume.css */
+
+.virtual-resume {
+    padding: 40px;
+  }
+  
+  .resume-header {
+    text-align: center;
+  }
+  
+  .resume-header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .resume-header h2 {
+    font-size: 20px;
+    color: #6cffc1;
+    margin-bottom: 20px;
+  }
+  
+  .resume-section {
+    margin-bottom: 30px;
+  }
+  
+  .resume-section h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .resume-section p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .resume-section ul {
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .resume-section li {
+    list-style-type: none;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .resume-section li i {
+    margin-right: 10px;
+    color: #6cffc1;
+  }
+  
+  .resume-section .timeline {
+    position: relative;
+  }
+  
+  .resume-section .timeline:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 25px;
+    height: 100%;
+    width: 2px;
+    background-color: #6cffc1;
+  }
+  
+  .resume-section .timeline-item {
+    padding-left: 60px;
+    position: relative;
+  }
+  
+  .resume-section .timeline-item:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 15px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #6cffc1;
+  }
+  
+  .resume-section .timeline-item:last-child:before {
+    height: 0;
+  }
+  
+  .resume-section .timeline-item p {
+    margin-bottom: 0;
+  }
+  
+  .resume-section .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .resume-section .skills-list li {
+    background-color: #6cffc1;
+    color: #111;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Media Query for responsive layout */
+  @media (max-width: 768px) {
+    .resume-section .timeline-item:before,
+    .resume-section .timeline:before {
+      left: 10px;
+    }
+  
+    .resume-section .timeline-item {
+      padding-left: 50px;
+    }
+  }
+  

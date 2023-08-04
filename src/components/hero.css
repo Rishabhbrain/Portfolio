@@ -1,0 +1,74 @@
+/* Hero section styles */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://i.pinimg.com/originals/05/a1/68/05a168c4a0fc699de7edbf94cde8de96.gif'); /* Replace with your hero background image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+  }
+  
+  .hero-content {
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .hero button {
+    padding: 12px 30px;
+    font-size: 18px;
+    border: none;
+    background-color: #6cffc1;
+    color: #111;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: 0.3s;
+  }
+  
+  .hero button:hover {
+    background-color: #40d29d;
+  }
+  
+  /* External CSS file - hero.css */
+
+/* Styles for the title */
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  transition: transform 0.3s ease-in-out; /* Add transition for transform property */
+  transform: scale(1); /* Initial scale value */
+}
+
+/* Styles for the subtitle */
+.hero-content p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-top: 20px;
+  opacity: 0.9;
+  transition: opacity 0.3s ease-in-out; /* Add transition for opacity property */
+  transform: translateY(0); /* Initial translateY value */
+}
+
+/* Styles for the button */
+.hero-content button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Add transitions for transform and box-shadow properties */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Add shadow for depth effect */
+}
